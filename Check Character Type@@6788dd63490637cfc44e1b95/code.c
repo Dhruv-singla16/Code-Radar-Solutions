@@ -9,7 +9,7 @@ int main() {
         printf("Consonant");
     }
     else if(var=='1','2','3','4','5','6','7','8','9','0'){
-        printf("Constant");
+        printf("Digit");
     }
     else{
         printf("Special Character");
