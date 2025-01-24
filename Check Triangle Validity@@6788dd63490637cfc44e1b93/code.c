@@ -5,12 +5,6 @@ int main() {
     if((a*a+b*b)>(c*c)){
         printf("Valid");
     }
-    else if((b*b+c*c)>(a*a)){
-        printf("Valid");
-    }
-    else if((a*a+c*c)>(b*b)){
-        printf("Valid");
-    }
     else{
         printf("Invald");
     }
