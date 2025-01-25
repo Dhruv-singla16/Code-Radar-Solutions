@@ -19,7 +19,12 @@ int main() {
             printf("%.0f",a*b);
             break;
         case '/':
-            printf("%.0f",a/b);
+            if(a==0 || b==0){
+                printf("");
+            }
+            else{
+                printf("%.0f",a/b);
+            }
             break;        
     }
     return 0;
