@@ -8,7 +8,12 @@ int main() {
             printf("%.0f",a+b);
             break;
         case '-':
-            printf("%.0f",a-b);
+            if(a>b){
+                printf("%.0f",a-b);
+            }
+            else{
+                printf("");
+            }
             break;
         case '*':
             printf("%.0f",a*b);
