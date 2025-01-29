@@ -15,4 +15,4 @@ int main() {
         printf("Special Character");
     }
     return 0;
-    }
+}
