@@ -23,7 +23,7 @@ int main() {
                 printf("");
             }
             else{
-                printf("%.0f",a/b);
+                printf("%.2f",a/b);
             }
             break;        
     }
