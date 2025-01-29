@@ -12,7 +12,7 @@ int main() {
                 printf("%.0f",a-b);
             }
             else{
-                printf("");
+                printf("error");
             }
             break;
         case '*':
@@ -20,12 +20,15 @@ int main() {
             break;
         case '/':
             if(a==0 || b==0){
-                printf("");
+                printf("error");
             }
             else{
-                printf("%.2f",a/b);
+                printf("%.0f",a/b);
             }
-            break;        
+            break;  
+        default:
+            printf("error");
+                  
     }
     return 0;
 }
