@@ -9,12 +9,14 @@ int main() {
         for(k=1;k<=i;k++){
             printf("%d",k);
         }  
-        for(p=2;p<=n;p++){
+              
+        printf("\n");
+    }
+    for(p=2;p<=n;p++){
             for(q=n;q>1;q--){
                 printf("%d",q);
             }
-        }        
-        printf("\n");
-    }
+            printf("\n");
+        }  
     return 0;
 }
