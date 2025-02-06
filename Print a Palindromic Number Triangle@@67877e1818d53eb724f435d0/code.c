@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n,i,j,k,p,q;
+    int n,i,j,k,p;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=i;j<n;j++){
@@ -9,9 +9,9 @@ int main() {
         for(k=1;k<=i;k++){
             printf("%d",k);
         } 
-        for(j=i-1;j>=1;j--)
+        for(p=i-1;p>=1;p--)
         {
-            printf("%d",j);
+            printf("%d",p);
         } 
               
         printf("\n");
