@@ -1,5 +1,5 @@
 #include <stdio.h>
-int bubblesort(int arr,int n){
+int bubbleSort(int arr,int n){
     for(int r=0;r<n;r++){
         for(int c=0;c<n-1-r;c++){
             if(arr[c]>arr[c+1]){
@@ -10,7 +10,7 @@ int bubblesort(int arr,int n){
         }
     }
 }
-int printarray(int arr,int n){
+int printArray(int arr,int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
