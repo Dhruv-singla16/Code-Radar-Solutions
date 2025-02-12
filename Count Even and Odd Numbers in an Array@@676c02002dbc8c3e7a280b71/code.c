@@ -5,7 +5,7 @@ int main()
     scanf("%d",&n);
     int s[n];
     for(i=0;i<n;i++){
-        scanf("%d",&s[n]);
+        scanf("%d",&s[i]);
     }
     for(i=0;i<n;i++){
         if((s[i])%2==0){
