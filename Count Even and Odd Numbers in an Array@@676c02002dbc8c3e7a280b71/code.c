@@ -8,7 +8,7 @@ int main()
         scanf("%d",&s[n]);
     }
     for(i=0;i<n;i++){
-        if(s[i]%2==0){
+        if((s[i])%2==0){
             counte++;
         }
         else{
