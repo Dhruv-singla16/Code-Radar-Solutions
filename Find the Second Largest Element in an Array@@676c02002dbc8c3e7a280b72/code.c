@@ -23,9 +23,10 @@ int main(){
     for (int i=0; i<n; i++) {
         if (a[i]==a[i+1])
         continue;
-        else 
-        {printf("-1");
-        return 0;}
+        else if (a[n-1]==a[i]) {
+            printf("-1");
+            return 0;
+        }
     }
     printf("%d",a[n-2]);
     
