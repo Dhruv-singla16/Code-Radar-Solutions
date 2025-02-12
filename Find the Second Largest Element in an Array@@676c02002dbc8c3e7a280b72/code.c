@@ -24,7 +24,7 @@ int main(){
         if (a[i]==a[n-i-1])
         count++;
     }
-    if (count==n) {
+    if (count==n-1) {
         printf("-1");
         return 0;
     }
