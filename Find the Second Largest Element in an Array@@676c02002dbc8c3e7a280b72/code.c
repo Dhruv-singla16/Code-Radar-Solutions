@@ -19,14 +19,14 @@ int main(){
             }
         }
     }
-    
-    for (int i=0; i<n; i++) {
-        if (a[i]==a[i+1])
-        continue;
-        else if (a[n-1]==a[i]) {
-            printf("-1");
-            return 0;
-        }
+    int count=0;
+    for (int i=0; i<n/2; i++) {
+        if (a[i]==a[n-i-1])
+        count++;
+    }
+    if (count==n) {
+        printf("-1");
+        return 0;
     }
     printf("%d",a[n-2]);
     
