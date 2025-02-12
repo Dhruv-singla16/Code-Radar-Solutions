@@ -1,12 +1,10 @@
 #include<stdio.h>
 int main(){
     int n,i,max,min;
-    printf("Enter n=");
     scanf("%d",&n);
     int s[n];
     for(i=0;i<n;i++){
-        printf("Enter sal at s[%d]\n",i);
-        scanf("%d",&s[i]);
+        scanf("%d ",&s[i]);
     }
     max=s[0];
     min=s[0];
@@ -18,6 +16,6 @@ int main(){
             min=s[i];
         }
     }
-    printf("Max element=%d\nminimum element=%d",max,min);
+    printf("%d %d",min,max);
     
 }
