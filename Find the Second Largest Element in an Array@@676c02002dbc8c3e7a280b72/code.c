@@ -2,10 +2,7 @@
 int main(){
     int n,temp;
     scanf("%d",&n);
-    if(n==1){
-        printf("-1");
-        label:
-    }
+    
     int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
@@ -19,6 +16,8 @@ int main(){
             }
         }
     }
+    
+
     printf("%d",a[n-2]);
-    goto label:
+    
 }
