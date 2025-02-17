@@ -1,0 +1,1 @@
+[{"index":120,"id":"67b1cdba0d3a4fae6d74be49","title":"for loop and switch","correctAnswer":"22","selectedOption":"22","isCorrect":true,"type":"MCQ"}]
