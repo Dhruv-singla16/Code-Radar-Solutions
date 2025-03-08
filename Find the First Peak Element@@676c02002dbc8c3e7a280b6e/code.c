@@ -25,7 +25,8 @@ int main(){
         else if(A[i]==A[i+1] && A[i]==A[i-1]){
             printf("-1");
         }
-       
-       
+        else if(A[i]>A[i-1] && A[i]<A[i+1]){
+            printf("%d",A[i+1]);
+        }
     }
 }
