@@ -6,9 +6,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&A[i]);
     }
-    if(n<=2){
-        for(i=0;i<2;i++)
-    }
+  
     for(i=0;i<n;i++){
         if(A[i]>A[i-1] && A[i]>A[i+1]){
             printf("%d",A[i]);
