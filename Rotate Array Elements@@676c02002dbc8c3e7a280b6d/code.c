@@ -17,6 +17,6 @@ int main()
         k--;
     }
     for(i=0;i<n;i++){
-        printf("%d",A[i]);
+        printf("%d\n",A[i]);
     }
 }
