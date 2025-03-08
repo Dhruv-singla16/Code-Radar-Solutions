@@ -10,7 +10,7 @@ int main(){
     for(i=0;i<n;i++){
         if(max<A[i]){
             max=A[i];
-            if(max>A[i+1] || max=A[n-1]){
+            if(max>A[i+1] || max==A[n-1]){
                 printf("%d",max);
                 return 0;
             }
