@@ -6,25 +6,15 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&A[i]);
     }
-    if(n==2){
-        for(i=0;i<2;i++){
-            if(A[i]>A[i+1]){
-                printf("%d",A[i]);
+    max=A[0];
+    for(i=0;i<n;i++){
+        if(max<A[i]){
+            max=A[i];
+            if(max>A[i+1] || max=A[n-1]){
+                printf("%d",max);
+                return 0;
             }
-            else
-            printf("%d",A[i+1]);
-            return 0;
         }
     }
-  
-    for(i=0;i<n;i++){
-        if(A[i]>A[i-1] && A[i]>A[i+1]){
-            printf("%d",A[i]);
-            return 0;
-        }
-        else if(A[i]==A[i+1] && A[i]==A[i-1]){
-            printf("-1");
-        }
-       
-    }//gwt thw naxelemnt until next oneis lower than it
+    printf("-1");
 }
