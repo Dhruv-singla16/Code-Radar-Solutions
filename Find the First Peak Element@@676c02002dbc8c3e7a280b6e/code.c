@@ -13,7 +13,7 @@ int main(){
             return 0;
         }
         else if(A[i]==A[i+1] && A[i]==A[i-1]){
-            printf("%d",A[i]);
+            printf("-1");
         }
        
     }
