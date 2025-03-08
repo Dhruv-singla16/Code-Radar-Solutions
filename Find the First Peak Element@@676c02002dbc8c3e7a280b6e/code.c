@@ -13,6 +13,7 @@ int main(){
             }
             else
             printf("%d",A[i+1]);
+            return 0;
         }
     }
   
