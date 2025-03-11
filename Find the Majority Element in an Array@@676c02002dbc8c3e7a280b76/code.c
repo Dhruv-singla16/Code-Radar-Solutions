@@ -26,9 +26,7 @@ int main(){
       if(count>n/2){
         printf("%d",A[i]);
       }
-      else{
-        printf("-1");
-      }
+      
     }
 
 }
