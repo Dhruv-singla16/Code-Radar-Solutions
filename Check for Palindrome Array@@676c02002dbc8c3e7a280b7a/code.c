@@ -8,7 +8,7 @@ int main(){
     }
    
     for(i=0;i<n;i++){
-       if( A[i]=A[n-i-1] ){
+       if( A[i]==A[n-i-1] ){
         count++;
        }
     }
