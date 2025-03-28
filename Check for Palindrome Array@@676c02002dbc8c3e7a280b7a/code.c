@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,j;
+    int n,i,j,count=0;
     scanf("%d",&n);
     int A[n];
     for(i=0;i<n;i++){
@@ -12,12 +12,14 @@ int main(){
     }
     for(j=0;j<n;j++){
         if(A[i]==B[i]){
-            printf("YES");
-            return 0;
+            count++;
         }
-        else{
-            printf("NO");
-            return 0;
-        }
+        
+    }
+    if(count!=0){
+        printf("YES");
+    }
+    else{
+        printf("NO");
     }
 }
