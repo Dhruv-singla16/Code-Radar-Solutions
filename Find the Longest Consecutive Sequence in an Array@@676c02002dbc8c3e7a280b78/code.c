@@ -19,6 +19,11 @@ int main(){
         if(A[i+1]-A[i]==1){
            count++; 
         }
+        if(A[i] == A[i+1])
+        {
+            printf("%d",count);
+            return 0;
+        }
     }
     if(count!=1)
         printf("%d",count);
