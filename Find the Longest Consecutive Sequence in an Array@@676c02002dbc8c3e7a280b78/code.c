@@ -23,4 +23,6 @@ int main(){
     }
     if(!count)
     printf("%d",count);
+    else
+    printf("1");
 }
