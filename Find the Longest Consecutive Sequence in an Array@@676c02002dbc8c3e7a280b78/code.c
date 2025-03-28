@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,r,c,temp=0,count=0;
+    int n,i,r,c,temp=0,count=1;
     scanf("%d",&n);
     int A[n];
     for(i=0;i<n;i++){
@@ -17,12 +17,11 @@ int main(){
     }   
     for(i=0;i<n;i++){
         if(A[i+1]-A[i]==1){
-           count++;
-            
+           count++; 
         }
     }
-    if(!count)
-    printf("%d",count);
+    if(count!=1)
+        printf("%d",count);
     else
-    printf("1");
+        printf("1");
 }
