@@ -14,7 +14,10 @@ int main(){
         if(A[i]==B[i]){
             count++;
         }
-        
+        else{
+            printf("NO");
+            return 0;
+        }
     }
     if(count!=0){
         printf("YES");
