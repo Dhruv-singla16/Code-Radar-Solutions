@@ -13,10 +13,11 @@ int main(){
     for(j=0;j<n;j++){
         if(A[i]==B[i]){
             printf("YES");
-            
+            return 0;
         }
         else{
             printf("NO");
+            return 0;
         }
     }
 }
