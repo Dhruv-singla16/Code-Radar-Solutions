@@ -6,20 +6,13 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&A[i]);
     }
-    int B[n];
+   
     for(i=0;i<n;i++){
-        B[i]=A[n-i-1];
+       if( A[i]=A[n-i-1] ){
+        count++;
+       }
     }
-    for(j=0;j<n;j++){
-        if(A[i]==B[i]){
-            count++;
-        }
-        else{
-            printf("NO");
-            return 0;
-        }
-    }
-    if(count!=0){
+    if(count==n){
         printf("YES");
     }
     else{
