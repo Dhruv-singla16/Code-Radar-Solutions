@@ -1,16 +1,28 @@
-int isPrime(int a)
+#include <stdio.h>
+
+int isPrime(int num) 
 {
-    for(int i=2;i<a;i++)
+    if (num < 2) 
+        return 0;
+    for (int i = 2; i < num; i++) 
     {
-        if(a%i != 0)
-        {
-            return a;
-        }
+        if (num % i == 0) 
+            return 0;
     }
+    return 1;
 }
 
-void printPrimesInRange(int a,int b){
-    for(int i=a+1;i<b;i++){
-        printf("%d ",isPrime(i));
+void printPrimesInRange(int start, int end) 
+{
+    int c=0;
+    for (int i = start; i <= end; i++) 
+    {
+        if (isPrime(i))
+        {
+            printf("%d ", i);
+            c++;
+        } 
     }
+    if(!c)
+        printf("No prime numbers");
 }
