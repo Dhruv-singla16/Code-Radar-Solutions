@@ -16,7 +16,7 @@ void printPrimesInRange(int start, int end)
         for (int c = 2; c < i; i++) 
         {
             if (i % c != 0) 
-                printf("%d ",i)
+                printf("%d ",i);
         }
     }
     // if(!c)
