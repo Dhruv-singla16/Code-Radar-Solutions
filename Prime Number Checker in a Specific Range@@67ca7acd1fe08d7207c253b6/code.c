@@ -1,13 +1,3 @@
-// #include <stdio.h>
-
-// int isPrime(int num) 
-// {
-//     if (num < 2) 
-//         return 0;
-    
-//     return 1;
-// }
-
 void printPrimesInRange(int start, int end) 
 {
     int c=0;
@@ -19,6 +9,5 @@ void printPrimesInRange(int start, int end)
                 printf("%d ",i);
         }
     }
-    // if(!c)
-    //     printf("No prime numbers");
+    
 }
