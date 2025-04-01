@@ -17,6 +17,6 @@ int main(){
             max_i=i;
         }
     }
-    if (max_i==0) printf("-1");
+    // if (max_i==0) printf("-1");
     else printf("%d", A[max_i]);
 }    
