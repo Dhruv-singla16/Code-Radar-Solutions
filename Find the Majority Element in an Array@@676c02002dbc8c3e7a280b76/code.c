@@ -6,7 +6,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&A[i]);
     }
-    int max=-1;
+    int max=1;
     for(i=0;i<n;i++){
         int count=0;
         for(j=0;j<n;j++) {
@@ -17,5 +17,6 @@ int main(){
             max_i=i;
         }
     }
-    printf("%d", A[max_i]);
+    if (max_i==0) printf("-1");
+    else printf("%d", A[max_i]);
 }    
