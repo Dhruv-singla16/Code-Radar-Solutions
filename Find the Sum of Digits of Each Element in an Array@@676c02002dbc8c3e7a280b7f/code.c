@@ -14,6 +14,9 @@ int main(){
             sum=sum+r;
             n1=n1/10;
         }
+        if(n1<0){
+            printf("-%d ",sum);
+        }
         printf("%d ",sum);
     }
 }
