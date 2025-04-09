@@ -8,6 +8,9 @@ int main(){
     }
     for(i=0;i<n;i++){
         n1=A[i];
+        if(n1<0){
+            n1=n1*(-1);
+        }
         int sum=0;
         while(n1!=0){
             r=n1%10;
