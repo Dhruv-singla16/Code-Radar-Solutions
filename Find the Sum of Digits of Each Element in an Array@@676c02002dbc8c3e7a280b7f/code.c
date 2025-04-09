@@ -10,7 +10,7 @@ int main(){
         n1=A[i];
         while(n1!=0){
             r=n1%10;
-            sum=sum+n1;
+            sum=sum+r;
             n1=n1/10;
         }
         printf("%d ",sum);
