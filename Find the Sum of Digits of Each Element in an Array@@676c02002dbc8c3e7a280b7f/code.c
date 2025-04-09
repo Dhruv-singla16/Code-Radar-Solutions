@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,n1,r,sum=0;
+    int n,i,n1,r;
     scanf("%d",&n);
     int A[n];
     for(i=0;i<n;i++){
@@ -8,6 +8,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         n1=A[i];
+        int sum=0;
         while(n1!=0){
             r=n1%10;
             sum=sum+r;
